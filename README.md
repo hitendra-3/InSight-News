@@ -1,4 +1,4 @@
-# FlashNews - DailyHunt Clone
+# FlashNews 
 
 A fully functional DailyHunt-style news application built with React Native (Expo), Supabase, and NewsAPI.
 
@@ -122,11 +122,6 @@ Scan the QR code with Expo Go (Android/iOS) or use an emulator.
 
 See `API_INTEGRATION_GUIDE.md` for detailed API documentation.
 
-## 📚 Documentation
-
-- **`DAILYHUNT_INTEGRATION.md`** - Complete feature documentation
-- **`API_INTEGRATION_GUIDE.md`** - NewsAPI integration details
-
 ## 🎨 Tech Stack
 
 - **React Native** - Cross-platform mobile framework
@@ -142,7 +137,7 @@ See `API_INTEGRATION_GUIDE.md` for detailed API documentation.
 For production, you can set these in `.env`:
 
 ```env
-EXPO_PUBLIC_NEWS_API_KEY=da5f0f7caa31458f8285f4e892f394a7
+EXPO_PUBLIC_NEWS_API_KEY=your_newsapi_key
 EXPO_PUBLIC_SUPABASE_URL=your_supabase_url
 EXPO_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
@@ -151,7 +146,7 @@ EXPO_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 If using Supabase features, run the SQL commands in `schema.sql` in your Supabase SQL Editor.
 
-## 🎯 DailyHunt Features Comparison
+## 🎯 InSight Features
 
 | Feature | Status |
 |---------|--------|
@@ -166,35 +161,12 @@ If using Supabase features, run the SQL commands in `schema.sql` in your Supabas
 | Fast Scrolling | ✅ Optimized |
 | Auto-refresh | ✅ Complete |
 
-## 🐛 Troubleshooting
-
-### Images Not Loading
-- Images automatically fallback to placeholder
-- Check internet connection
-- API handles broken URLs automatically
-
-### Search Not Working
-- Ensure API key is set (already integrated)
-- Check network connectivity
-- Hashtags must start with `#`
-
-### Categories Not Loading
-- All categories are functional
-- Check console for API errors
-- App falls back to cached data if API fails
 
 ## 📄 License
 
 Private project
 
-## 🙏 Credits
-
-- NewsAPI.org for news data
-- Expo for development platform
-- React Native community
-
 ---
 
-**Version**: 2.0.0 (DailyHunt Clone)  
 **Status**: ✅ Production Ready  
 **API Key**: Integrated and Working
