@@ -35,14 +35,14 @@ A fully functional DailyHunt-style news application built with React Native (Exp
 
 ### 2. API Key (Already Integrated!)
 
-**✅ Your NewsAPI key is already integrated: `da5f0f7caa31458f8285f4e892f394a7`**
+**✅ Your NewsAPI key is already integrated: `Your_newsapi_key**
 
 The app will work immediately without any configuration. However, for production, you can:
 
 **Option A: Use Environment Variable (Recommended)**
 Create a `.env` file:
 ```env
-EXPO_PUBLIC_NEWS_API_KEY=da5f0f7caa31458f8285f4e892f394a7
+EXPO_PUBLIC_NEWS_API_KEY=Your_newsapi_key
 ```
 
 **Option B: Use Current Setup**
