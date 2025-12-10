@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Insight",
+    "slug": "insight",
+    "scheme": "insight-news",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.hiten.flashnews"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5f5ee5b-158b-4ea1-af2d-cd23c0c7ac79"
+      },
+      "newsApiKey": "da5f0f7caa31458f8285f4e892f394a7"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "owner": "hitennn.3"
+  }
+}
